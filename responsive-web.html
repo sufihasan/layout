@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive-web</title>
+    <style>
+        h1 {
+
+            font-size: 5vw;
+        }
+
+        .flower img {
+            width: 100%;
+
+        }
+
+        body {
+
+            border: 2px solid green;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contain-tow {
+
+            display: flex;
+        }
+
+        .contain-tow .split {
+            width: 50%;
+
+        }
+
+        .split img {
+
+            width: 100%;
+        }
+
+        @media screen and (max-width:576px) {
+
+            .contain-tow {
+
+                flex-direction: column;
+            }
+
+            .contain-tow .split {
+                width: 100%;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <h1>this responsive website</h1>
+    </section>
+
+    <section class="flower">
+
+        <img src="images/flower.jpeg" alt="pic">
+
+
+    </section>
+
+    <section>
+        <div class="contain-tow">
+            <div class="split">
+
+                <img src="images/flower.jpeg" alt="">
+
+
+
+
+            </div>
+
+            <div class="split">
+                <img src="images/hasanpro.jpg" alt="">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
