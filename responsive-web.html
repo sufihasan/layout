@@ -22,6 +22,7 @@
             border: 2px solid green;
             max-width: 800px;
             margin: 0 auto;
+            padding: 2px;
         }
 
         .contain-tow {
@@ -51,6 +52,53 @@
 
             }
 
+        }
+
+        /* medi responsive  */
+
+
+
+        /* css grid style  */
+
+        .container-food {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            gap: 20px;
+
+        }
+
+
+
+        @media only screen and (max-width:576px) {
+            .container-food {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+        }
+
+
+        @media only screen and (min-width:577px) and (max-width:850px) {
+            .container-food {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        .food {
+
+            border-radius: 5px;
+            border: 1px solid red;
+            padding: 5%;
+        }
+
+        .container-food .food img {
+
+            width: 100%;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -85,6 +133,121 @@
             </div>
 
         </div>
+
+
+        <!-- gride part  -->
+    </section>
+    <div class="container-food">
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-1</h2>
+            <h2>price:100 </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, adipisci ratione? Sequi veniam,
+                autem ad porro cumque provident aliquid eligendi nesciunt consectetur distinctio quod magni quibusdam
+                eum, vel culpa ipsam.</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-2</h2>
+            <h2>price:200 </h2>
+            <p>Explicabo iusto, eius voluptatem dignissimos unde qui. Libero iste laborum earum eligendi nihil adipisci
+                debitis suscipit nostrum maxime tempore dicta corrupti et reprehenderit sequi maiores dolorum placeat
+                exercitationem, harum fugit.</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-3</h2>
+            <h2>price:300 </h2>
+            <p>Architecto deserunt a ratione eos repellendus vitae ipsum modi, fugiat nulla nihil iusto dolore delectus
+                eveniet qui, commodi explicabo voluptatibus voluptas assumenda molestiae, consequatur veniam corporis?
+                Ducimus temporibus rem quibusdam?</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-4</h2>
+            <h2>price:400 </h2>
+            <p>Corporis inventore officia necessitatibus quidem ea eaque eos a voluptatem praesentium debitis dolore,
+                cupiditate magni, quo eius expedita reiciendis! Deleniti necessitatibus numquam officia, at minima est
+                id quas aperiam nam?</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-5</h2>
+            <h2>price:500 </h2>
+            <p>Veniam itaque ipsa aperiam officia est labore laboriosam explicabo quidem nulla aliquam odio rerum
+                reprehenderit dignissimos laborum suscipit unde, magnam cupiditate neque dicta ducimus alias atque, quod
+                amet! Harum, sint?</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-6</h2>
+            <h2>price:600 </h2>
+            <p>Aliquid eveniet ipsum magni laudantium nam architecto corrupti at animi. Esse voluptas voluptatem eaque
+                minima inventore. Architecto blanditiis reprehenderit rem illum, sunt autem esse exercitationem
+                molestias quae nobis amet officia.</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-7</h2>
+            <h2>price:700 </h2>
+            <p>Eius, necessitatibus quod inventore officia dolores illo expedita, laboriosam nam, harum quas sunt
+                quidem. Aliquam porro, rem magni dolorum corporis sit nulla unde eius placeat. Veniam expedita cumque ex
+                a.</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-8</h2>
+            <h2>price:800 </h2>
+            <p>Veritatis, animi voluptatem aliquid laboriosam repudiandae recusandae, fugit cum tenetur sed iste minima
+                nam quod itaque ipsum dicta exercitationem nesciunt alias tempore sint magni, perferendis fugiat
+                eligendi ipsa. Fugiat, quis.</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-9</h2>
+            <h2>price:900 </h2>
+            <p>Sunt perferendis commodi, facere voluptas sequi a quaerat doloremque sint cumque eius earum qui! Autem,
+                quasi nam magnam molestias sint deleniti dolor at harum quidem expedita veritatis ab, qui ducimus!</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-10</h2>
+            <h2>price:1000 </h2>
+            <p>Nostrum quod ut sit. Neque voluptatem ad soluta atque illum, iure, accusantium dolorem impedit quasi,
+                itaque consectetur perspiciatis fugit ab fuga fugiat! Commodi ipsum nemo cupiditate beatae expedita
+                distinctio sint.</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-11</h2>
+            <h2>price:1100 </h2>
+            <p>Omnis voluptate itaque rerum distinctio nemo nam ducimus incidunt aperiam, asperiores consectetur ea
+                possimus velit ipsum quas recusandae eligendi laborum commodi perspiciatis eum magni repellendus vel
+                autem exercitationem. Fuga, at.</p>
+            <button>Odernow</button>
+        </div>
+        <div class="food">
+            <img src="images/flower.jpeg" alt="">
+            <h2>item-12</h2>
+            <h2>price:1200 </h2>
+            <p>Quaerat possimus assumenda rerum! Earum quia hic quaerat neque. Eius praesentium exercitationem
+                repudiandae maiores qui dicta et optio ex! Molestiae doloribus blanditiis nostrum dolorum a sunt
+                laudantium exercitationem iusto pariatur!</p>
+            <button>Odernow</button>
+        </div>
+    </div>
+    <section>
+
 
     </section>
 
